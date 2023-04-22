@@ -18,6 +18,7 @@ class ShowUser(BaseModel):
     name: str
     email: str
     blogs: List[Blog]
+
     class Config():
         orm_mode = True
 
@@ -25,6 +26,7 @@ class ShowBlog(BaseModel):
     title: str
     body: str
     creator: ShowUser
+
     class Config():
         orm_mode = True
 
@@ -38,4 +40,4 @@ class Token(BaseModel):
 
 
 class TokenData(BaseModel):
-    username: str | None = None
+    email: str | None = None
