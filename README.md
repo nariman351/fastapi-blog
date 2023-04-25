@@ -5,9 +5,9 @@ Credit goes to https://www.youtube.com/watch?v=7t2alSnE2-I&t=5870s by [@Bitfumes
 
 ## ✨ Features
 
+- Python 3
 - FastAPI
 - Pydantic
-- Python 3
 - SQLite
 - SQLAlchemy
 
